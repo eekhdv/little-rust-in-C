@@ -1,0 +1,14 @@
+[package]
+name = "my_rust"
+version = "0.1.0"
+edition = "2021"
+build = "src/build.rs"
+
+[lib]
+name = "my_rust"
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[build-dependencies]
+cbindgen = "0.24.3"
+
