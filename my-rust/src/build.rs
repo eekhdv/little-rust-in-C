@@ -14,6 +14,6 @@ fn main() {
         .with_language(main_language)
         .generate()
         .expect("Unable to generate bindings")
-        .write_to_file("bindings.h");
+        .write_to_file("../src/bindings.h");
 }
 
