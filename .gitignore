@@ -1,2 +1,2 @@
-./my-rust/target
+my-rust/target/*
 main
