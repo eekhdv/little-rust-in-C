@@ -5,8 +5,8 @@
 git clone https://github.com/khadievedem/little-rust-in-C.git
 cd little-rust-in-C
 ```
-```sh
 ###### build project
+```sh
 mkdir build && cd build
 cmake ../
 cmake --build .
