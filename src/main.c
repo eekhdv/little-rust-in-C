@@ -1,4 +1,4 @@
-#include "../my-rust/target/bindings.h"
+#include "bindings.h"
 
 int main(void) {
 	rust_lib_function();	
